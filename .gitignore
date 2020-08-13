@@ -1,0 +1,3 @@
+node_modules
+app/api/config/db.json
+app/api/config/authorized-origins.json

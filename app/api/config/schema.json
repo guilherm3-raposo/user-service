@@ -1,0 +1,32 @@
+{
+	"name": "user_service",
+	"engine": "InnoDB",
+	"charset": "utf8mb4",
+	"collation": "utf8mb4_bin",
+	"tables": {
+		"user": {
+			"name": "user",
+			"columns": {
+				"id": {
+					"name": "id",
+					"index": 0
+				},
+				"login": {
+					"name": "login",
+					"index": 1,
+					"length": 30
+				},
+				"password": {
+					"name": "password",
+					"index": 2,
+					"length": 255
+				},
+				"hint": {
+					"name": "hint",
+					"index": 3,
+					"length": 255
+				}
+			}
+		}
+	}
+}

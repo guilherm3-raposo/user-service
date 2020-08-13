@@ -1,0 +1,8 @@
+{
+	"PORT": 41125,
+	"ADMIN": {
+		"user": "ADMIN",
+		"password": "12345"
+	},
+	"RESTRAIN_LOGGED_USER_IP": true
+}
